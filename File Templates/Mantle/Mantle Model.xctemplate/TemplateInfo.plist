@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyModel</string>
+	<key>Description</key>
+	<string>A Mantle model class.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the model</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>MTLModel</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>FallbackHeader</key>
+			<string>#import &lt;Mantle/Mantle.h&gt;</string>
+			<key>Identifier</key>
+			<string>Subclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>MTLModel</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>Description</key>
+			<string>Implement MTLJSONSerialization</string>
+			<key>Identifier</key>
+			<string>JSON</string>
+			<key>Name</key>
+			<string>MTLJSONSerialization</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>Subclass</key>
+				<array>
+					<string>MTLModel</string>
+				</array>
+			</dict>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		
+		
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>A Mantle Model class</string>
+</dict>
+</plist>
