@@ -8,6 +8,6 @@
 
 ___IMPORTHEADER_Subclass___
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_Subclass___ <MTLJSONSerialization>
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_Subclass___ <MTLJSONSerializing>
 
 @end
