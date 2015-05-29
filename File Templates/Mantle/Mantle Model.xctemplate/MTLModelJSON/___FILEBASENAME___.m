@@ -20,7 +20,7 @@
     return self;
 }
 
-#pragma mark - MTLJSONSerialization
+#pragma mark - MTLJSONSerializing
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
